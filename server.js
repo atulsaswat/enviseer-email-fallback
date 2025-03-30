@@ -16,7 +16,7 @@ app.post('/api/send-email', async (req, res) => {
     
     const msg = {
       to: 'devip@enviseer.com',
-      from: 'noreply@enviseer.com',
+      from: 'devip@enviseer.com',
       subject: `Demo Request from ${firstName} ${lastName}`,
       text: `Name: ${firstName} ${lastName}
 Email: ${email}
